@@ -4,7 +4,8 @@ SWCaffe is a deep learning framework on SW26010 based by Caffe with MPI supporte
 Compiling method is the same with [Caffe](https://github.com/BVLC/caffe/blob/master/LICENSE).
 This repo is maintained by National Supercomputer Center in Wuxi.
 More details about optimization tricks to convolutional layers please see our [Technical Report](https://fangjiarui.github.io/assets/pdf/swcaffe.pdf) and our IPDPS-17's paper [swDNN: A Library for Accelerating Deep Learning Applications on
-Sunway TaihuLight](https://fangjiarui.github.io/assets/pdf/swdnn-ipdps-2017.pdf)
+Sunway TaihuLight](https://fangjiarui.github.io/assets/pdf/swdnn-ipdps-2017.pdf).
+We also have a conference paper on swCaffe in submission.
 
 ## Authors
 Jiarui Fang (fang_jiarui@163.com), Liandeng Li(liandeng_li@163.com)
