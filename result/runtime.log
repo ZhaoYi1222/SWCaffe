@@ -1,0 +1,488 @@
+2017-12-05 17:20:37 1512465637  INFO: src/caffe/net.cpp : line 718 :  : layer1  conv1 forward cost time: 1.08361s
+2017-12-05 17:20:37 1512465637  INFO: src/caffe/net.cpp : line 718 :  : layer2  bn_conv1 forward cost time: 0.410253s
+2017-12-05 17:20:38 1512465638  INFO: src/caffe/net.cpp : line 718 :  : layer3  scale_conv1 forward cost time: 0.535143s
+2017-12-05 17:20:38 1512465638  INFO: src/caffe/net.cpp : line 718 :  : layer4  conv1_relu forward cost time: 0.015706s
+2017-12-05 17:20:38 1512465638  INFO: src/caffe/net.cpp : line 718 :  : layer5  pool1 forward cost time: 0.042597s
+2017-12-05 17:20:38 1512465638  INFO: src/caffe/net.cpp : line 718 :  : layer6  pool1_pool1_0_split forward cost time: 7e-06s
+2017-12-05 17:20:38 1512465638  INFO: src/caffe/net.cpp : line 718 :  : layer7  res2a_branch1 forward cost time: 0.15791s
+2017-12-05 17:20:38 1512465638  INFO: src/caffe/net.cpp : line 718 :  : layer8  bn2a_branch1 forward cost time: 0.362865s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer9  scale2a_branch1 forward cost time: 0.173476s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer10  res2a_branch2a forward cost time: 0.156791s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer11  bn2a_branch2a forward cost time: 0.093796s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer12  scale2a_branch2a forward cost time: 0.149116s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer13  res2a_branch2a_relu forward cost time: 0.003981s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer14  res2a_branch2b forward cost time: 0.185307s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer15  bn2a_branch2b forward cost time: 0.092784s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer16  scale2a_branch2b forward cost time: 0.148947s
+2017-12-05 17:20:39 1512465639  INFO: src/caffe/net.cpp : line 718 :  : layer17  res2a_branch2b_relu forward cost time: 0.003982s
+2017-12-05 17:20:40 1512465640  INFO: src/caffe/net.cpp : line 718 :  : layer18  res2a_branch2c forward cost time: 0.15785s
+2017-12-05 17:20:40 1512465640  INFO: src/caffe/net.cpp : line 718 :  : layer19  bn2a_branch2c forward cost time: 0.365622s
+2017-12-05 17:20:40 1512465640  INFO: src/caffe/net.cpp : line 718 :  : layer20  scale2a_branch2c forward cost time: 0.173172s
+2017-12-05 17:20:40 1512465640  INFO: src/caffe/net.cpp : line 718 :  : layer21  res2a forward cost time: 0.139389s
+2017-12-05 17:20:40 1512465640  INFO: src/caffe/net.cpp : line 718 :  : layer22  res2a_relu forward cost time: 0.015748s
+2017-12-05 17:20:40 1512465640  INFO: src/caffe/net.cpp : line 718 :  : layer23  res2a_res2a_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:40 1512465640  INFO: src/caffe/net.cpp : line 718 :  : layer24  res2b_branch2a forward cost time: 0.155976s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer25  bn2b_branch2a forward cost time: 0.092548s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer26  scale2b_branch2a forward cost time: 0.149468s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer27  res2b_branch2a_relu forward cost time: 0.004s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer28  res2b_branch2b forward cost time: 0.184163s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer29  bn2b_branch2b forward cost time: 0.093069s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer30  scale2b_branch2b forward cost time: 0.149149s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer31  res2b_branch2b_relu forward cost time: 0.004s
+2017-12-05 17:20:41 1512465641  INFO: src/caffe/net.cpp : line 718 :  : layer32  res2b_branch2c forward cost time: 0.160466s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer33  bn2b_branch2c forward cost time: 0.36489s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer34  scale2b_branch2c forward cost time: 0.175961s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer35  res2b forward cost time: 0.139413s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer36  res2b_relu forward cost time: 0.015726s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer37  res2b_res2b_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer38  res2c_branch2a forward cost time: 0.156064s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer39  bn2c_branch2a forward cost time: 0.093712s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer40  scale2c_branch2a forward cost time: 0.148983s
+2017-12-05 17:20:42 1512465642  INFO: src/caffe/net.cpp : line 718 :  : layer41  res2c_branch2a_relu forward cost time: 0.003985s
+2017-12-05 17:20:43 1512465643  INFO: src/caffe/net.cpp : line 718 :  : layer42  res2c_branch2b forward cost time: 0.185845s
+2017-12-05 17:20:43 1512465643  INFO: src/caffe/net.cpp : line 718 :  : layer43  bn2c_branch2b forward cost time: 0.093096s
+2017-12-05 17:20:43 1512465643  INFO: src/caffe/net.cpp : line 718 :  : layer44  scale2c_branch2b forward cost time: 0.14894s
+2017-12-05 17:20:43 1512465643  INFO: src/caffe/net.cpp : line 718 :  : layer45  res2c_branch2b_relu forward cost time: 0.003949s
+2017-12-05 17:20:43 1512465643  INFO: src/caffe/net.cpp : line 718 :  : layer46  res2c_branch2c forward cost time: 0.157906s
+2017-12-05 17:20:43 1512465643  INFO: src/caffe/net.cpp : line 718 :  : layer47  bn2c_branch2c forward cost time: 0.361257s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer48  scale2c_branch2c forward cost time: 0.172888s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer49  res2c forward cost time: 0.139631s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer50  res2c_relu forward cost time: 0.01576s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer51  res2c_res2c_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer52  res3a_branch1 forward cost time: 0.121982s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer53  bn3a_branch1 forward cost time: 0.205322s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer54  scale3a_branch1 forward cost time: 0.104607s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer55  res3a_branch2a forward cost time: 0.076608s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer56  bn3a_branch2a forward cost time: 0.053214s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer57  scale3a_branch2a forward cost time: 0.055463s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer58  res3a_branch2a_relu forward cost time: 0.002012s
+2017-12-05 17:20:44 1512465644  INFO: src/caffe/net.cpp : line 718 :  : layer59  res3a_branch2b forward cost time: 0.129748s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer60  bn3a_branch2b forward cost time: 0.053239s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer61  scale3a_branch2b forward cost time: 0.05554s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer62  res3a_branch2b_relu forward cost time: 0.001995s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer63  res3a_branch2c forward cost time: 0.099516s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer64  bn3a_branch2c forward cost time: 0.208296s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer65  scale3a_branch2c forward cost time: 0.104502s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer66  res3a forward cost time: 0.069595s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer67  res3a_relu forward cost time: 0.007899s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer68  res3a_res3a_relu_0_split forward cost time: 7e-06s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer69  res3b_branch2a forward cost time: 0.060024s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer70  bn3b_branch2a forward cost time: 0.052905s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer71  scale3b_branch2a forward cost time: 0.055492s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer72  res3b_branch2a_relu forward cost time: 0.002029s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer73  res3b_branch2b forward cost time: 0.128947s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer74  bn3b_branch2b forward cost time: 0.053371s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer75  scale3b_branch2b forward cost time: 0.055753s
+2017-12-05 17:20:45 1512465645  INFO: src/caffe/net.cpp : line 718 :  : layer76  res3b_branch2b_relu forward cost time: 0.002024s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer77  res3b_branch2c forward cost time: 0.10156s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer78  bn3b_branch2c forward cost time: 0.207715s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer79  scale3b_branch2c forward cost time: 0.106188s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer80  res3b forward cost time: 0.069673s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer81  res3b_relu forward cost time: 0.007901s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer82  res3b_res3b_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer83  res3c_branch2a forward cost time: 0.059932s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer84  bn3c_branch2a forward cost time: 0.053831s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer85  scale3c_branch2a forward cost time: 0.055794s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer86  res3c_branch2a_relu forward cost time: 0.002029s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer87  res3c_branch2b forward cost time: 0.129223s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer88  bn3c_branch2b forward cost time: 0.053131s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer89  scale3c_branch2b forward cost time: 0.055444s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer90  res3c_branch2b_relu forward cost time: 0.002022s
+2017-12-05 17:20:46 1512465646  INFO: src/caffe/net.cpp : line 718 :  : layer91  res3c_branch2c forward cost time: 0.09948s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer92  bn3c_branch2c forward cost time: 0.208347s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer93  scale3c_branch2c forward cost time: 0.104526s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer94  res3c forward cost time: 0.069758s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer95  res3c_relu forward cost time: 0.007884s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer96  res3c_res3c_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer97  res3d_branch2a forward cost time: 0.060098s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer98  bn3d_branch2a forward cost time: 0.052916s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer99  scale3d_branch2a forward cost time: 0.055397s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer100  res3d_branch2a_relu forward cost time: 0.002012s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer101  res3d_branch2b forward cost time: 0.128111s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer102  bn3d_branch2b forward cost time: 0.053457s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer103  scale3d_branch2b forward cost time: 0.055775s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer104  res3d_branch2b_relu forward cost time: 0.002032s
+2017-12-05 17:20:47 1512465647  INFO: src/caffe/net.cpp : line 718 :  : layer105  res3d_branch2c forward cost time: 0.101435s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer106  bn3d_branch2c forward cost time: 0.20716s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer107  scale3d_branch2c forward cost time: 0.106195s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer108  res3d forward cost time: 0.069588s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer109  res3d_relu forward cost time: 0.00793s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer110  res3d_res3d_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer111  res4a_branch1 forward cost time: 0.109861s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer112  bn4a_branch1 forward cost time: 0.141883s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer113  scale4a_branch1 forward cost time: 0.075621s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer114  res4a_branch2a forward cost time: 0.050715s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer115  bn4a_branch2a forward cost time: 0.036807s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer116  scale4a_branch2a forward cost time: 0.030378s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer117  res4a_branch2a_relu forward cost time: 0.001051s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer118  res4a_branch2b forward cost time: 0.100545s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer119  bn4a_branch2b forward cost time: 0.036735s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer120  scale4a_branch2b forward cost time: 0.030251s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer121  res4a_branch2b_relu forward cost time: 0.001059s
+2017-12-05 17:20:48 1512465648  INFO: src/caffe/net.cpp : line 718 :  : layer122  res4a_branch2c forward cost time: 0.086674s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer123  bn4a_branch2c forward cost time: 0.14179s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer124  scale4a_branch2c forward cost time: 0.075323s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer125  res4a forward cost time: 0.034783s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer126  res4a_relu forward cost time: 0.003987s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer127  res4a_res4a_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer128  res4b_branch2a forward cost time: 0.055427s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer129  bn4b_branch2a forward cost time: 0.036799s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer130  scale4b_branch2a forward cost time: 0.030397s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer131  res4b_branch2a_relu forward cost time: 0.001042s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer132  res4b_branch2b forward cost time: 0.100651s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer133  bn4b_branch2b forward cost time: 0.036639s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer134  scale4b_branch2b forward cost time: 0.030281s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer135  res4b_branch2b_relu forward cost time: 0.001047s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer136  res4b_branch2c forward cost time: 0.087305s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer137  bn4b_branch2c forward cost time: 0.142571s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer138  scale4b_branch2c forward cost time: 0.075582s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer139  res4b forward cost time: 0.03477s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer140  res4b_relu forward cost time: 0.003989s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer141  res4b_res4b_relu_0_split forward cost time: 5e-06s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer142  res4c_branch2a forward cost time: 0.054873s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer143  bn4c_branch2a forward cost time: 0.036584s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer144  scale4c_branch2a forward cost time: 0.03027s
+2017-12-05 17:20:49 1512465649  INFO: src/caffe/net.cpp : line 718 :  : layer145  res4c_branch2a_relu forward cost time: 0.001042s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer146  res4c_branch2b forward cost time: 0.100789s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer147  bn4c_branch2b forward cost time: 0.036732s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer148  scale4c_branch2b forward cost time: 0.030271s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer149  res4c_branch2b_relu forward cost time: 0.001042s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer150  res4c_branch2c forward cost time: 0.087874s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer151  bn4c_branch2c forward cost time: 0.141929s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer152  scale4c_branch2c forward cost time: 0.075585s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer153  res4c forward cost time: 0.034661s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer154  res4c_relu forward cost time: 0.003949s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer155  res4c_res4c_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer156  res4d_branch2a forward cost time: 0.055527s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer157  bn4d_branch2a forward cost time: 0.036914s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer158  scale4d_branch2a forward cost time: 0.030254s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer159  res4d_branch2a_relu forward cost time: 0.001043s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer160  res4d_branch2b forward cost time: 0.098984s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer161  bn4d_branch2b forward cost time: 0.036716s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer162  scale4d_branch2b forward cost time: 0.030331s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer163  res4d_branch2b_relu forward cost time: 0.00104s
+2017-12-05 17:20:50 1512465650  INFO: src/caffe/net.cpp : line 718 :  : layer164  res4d_branch2c forward cost time: 0.087347s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer165  bn4d_branch2c forward cost time: 0.141714s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer166  scale4d_branch2c forward cost time: 0.075411s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer167  res4d forward cost time: 0.03451s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer168  res4d_relu forward cost time: 0.003972s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer169  res4d_res4d_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer170  res4e_branch2a forward cost time: 0.055288s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer171  bn4e_branch2a forward cost time: 0.036732s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer172  scale4e_branch2a forward cost time: 0.030355s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer173  res4e_branch2a_relu forward cost time: 0.001037s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer174  res4e_branch2b forward cost time: 0.100361s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer175  bn4e_branch2b forward cost time: 0.036858s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer176  scale4e_branch2b forward cost time: 0.030323s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer177  res4e_branch2b_relu forward cost time: 0.001041s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer178  res4e_branch2c forward cost time: 0.086697s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer179  bn4e_branch2c forward cost time: 0.141533s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer180  scale4e_branch2c forward cost time: 0.075465s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer181  res4e forward cost time: 0.034562s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer182  res4e_relu forward cost time: 0.003959s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer183  res4e_res4e_relu_0_split forward cost time: 7e-06s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer184  res4f_branch2a forward cost time: 0.055465s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer185  bn4f_branch2a forward cost time: 0.036711s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer186  scale4f_branch2a forward cost time: 0.030378s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer187  res4f_branch2a_relu forward cost time: 0.001042s
+2017-12-05 17:20:51 1512465651  INFO: src/caffe/net.cpp : line 718 :  : layer188  res4f_branch2b forward cost time: 0.100636s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer189  bn4f_branch2b forward cost time: 0.036682s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer190  scale4f_branch2b forward cost time: 0.030293s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer191  res4f_branch2b_relu forward cost time: 0.001045s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer192  res4f_branch2c forward cost time: 0.087639s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer193  bn4f_branch2c forward cost time: 0.141844s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer194  scale4f_branch2c forward cost time: 0.075538s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer195  res4f forward cost time: 0.034514s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer196  res4f_relu forward cost time: 0.003975s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer197  res4f_res4f_relu_0_split forward cost time: 5e-06s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer198  res5a_branch1 forward cost time: 0.183093s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer199  bn5a_branch1 forward cost time: 0.132285s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer200  scale5a_branch1 forward cost time: 0.069343s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer201  res5a_branch2a forward cost time: 0.069419s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer202  bn5a_branch2a forward cost time: 0.033763s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer203  scale5a_branch2a forward cost time: 0.028918s
+2017-12-05 17:20:52 1512465652  INFO: src/caffe/net.cpp : line 718 :  : layer204  res5a_branch2a_relu forward cost time: 0.000564s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer205  res5a_branch2b forward cost time: 0.160547s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer206  bn5a_branch2b forward cost time: 0.033812s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer207  scale5a_branch2b forward cost time: 0.028912s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer208  res5a_branch2b_relu forward cost time: 0.000558s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer209  res5a_branch2c forward cost time: 0.093858s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer210  bn5a_branch2c forward cost time: 0.129965s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer211  scale5a_branch2c forward cost time: 0.069261s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer212  res5a forward cost time: 0.017161s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer213  res5a_relu forward cost time: 0.002013s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer214  res5a_res5a_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer215  res5b_branch2a forward cost time: 0.076321s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer216  bn5b_branch2a forward cost time: 0.034317s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer217  scale5b_branch2a forward cost time: 0.029038s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer218  res5b_branch2a_relu forward cost time: 0.000562s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer219  res5b_branch2b forward cost time: 0.161093s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer220  bn5b_branch2b forward cost time: 0.033771s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer221  scale5b_branch2b forward cost time: 0.028893s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer222  res5b_branch2b_relu forward cost time: 0.000562s
+2017-12-05 17:20:53 1512465653  INFO: src/caffe/net.cpp : line 718 :  : layer223  res5b_branch2c forward cost time: 0.094095s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer224  bn5b_branch2c forward cost time: 0.132205s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer225  scale5b_branch2c forward cost time: 0.069299s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer226  res5b forward cost time: 0.017124s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer227  res5b_relu forward cost time: 0.00202s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer228  res5b_res5b_relu_0_split forward cost time: 6e-06s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer229  res5c_branch2a forward cost time: 0.078614s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer230  bn5c_branch2a forward cost time: 0.033714s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer231  scale5c_branch2a forward cost time: 0.028911s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer232  res5c_branch2a_relu forward cost time: 0.000568s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer233  res5c_branch2b forward cost time: 0.155898s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer234  bn5c_branch2b forward cost time: 0.034812s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer235  scale5c_branch2b forward cost time: 0.02891s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer236  res5c_branch2b_relu forward cost time: 0.000562s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer237  res5c_branch2c forward cost time: 0.094725s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer238  bn5c_branch2c forward cost time: 0.130019s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer239  scale5c_branch2c forward cost time: 0.069263s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer240  res5c forward cost time: 0.017292s
+2017-12-05 17:20:54 1512465654  INFO: src/caffe/net.cpp : line 718 :  : layer241  res5c_relu forward cost time: 0.002015s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 718 :  : layer242  pool5 forward cost time: 0.370887s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 718 :  : layer243  fc1000 forward cost time: 0.00322s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 718 :  : layer244  loss forward cost time: 0.007418s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer244  loss Backward cost time: 0.00011s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer243  fc1000 Backward cost time: 0.009487s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer242  pool5 Backward cost time: 0.377735s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer241  res5c_relu Backward cost time: 0.003143s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer240  res5c Backward cost time: 0.003794s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer239  scale5c_branch2c Backward cost time: 0.033344s
+2017-12-05 17:20:55 1512465655  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer238  bn5c_branch2c Backward cost time: 0.140822s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer237  res5c_branch2c Backward cost time: 0.229384s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer236  res5c_branch2b_relu Backward cost time: 0.000826s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer235  scale5c_branch2b Backward cost time: 0.014734s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer234  bn5c_branch2b Backward cost time: 0.035783s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer233  res5c_branch2b Backward cost time: 0.574761s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer232  res5c_branch2a_relu Backward cost time: 0.000858s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer231  scale5c_branch2a Backward cost time: 0.014778s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer230  bn5c_branch2a Backward cost time: 0.036263s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer229  res5c_branch2a Backward cost time: 0.233855s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer228  res5b_res5b_relu_0_split Backward cost time: 0.063634s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer227  res5b_relu Backward cost time: 0.003077s
+2017-12-05 17:20:56 1512465656  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer226  res5b Backward cost time: 0.003783s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer225  scale5b_branch2c Backward cost time: 0.035126s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer224  bn5b_branch2c Backward cost time: 0.138085s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer223  res5b_branch2c Backward cost time: 0.246986s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer222  res5b_branch2b_relu Backward cost time: 0.000833s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer221  scale5b_branch2b Backward cost time: 0.014743s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer220  bn5b_branch2b Backward cost time: 0.036225s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer219  res5b_branch2b Backward cost time: 0.520576s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer218  res5b_branch2a_relu Backward cost time: 0.000862s
+2017-12-05 17:20:57 1512465657  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer217  scale5b_branch2a Backward cost time: 0.015321s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer216  bn5b_branch2a Backward cost time: 0.03638s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer215  res5b_branch2a Backward cost time: 0.251466s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer214  res5a_res5a_relu_0_split Backward cost time: 0.052385s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer213  res5a_relu Backward cost time: 0.0031s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer212  res5a Backward cost time: 0.003815s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer211  scale5a_branch2c Backward cost time: 0.033561s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer210  bn5a_branch2c Backward cost time: 0.142539s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer209  res5a_branch2c Backward cost time: 0.229132s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer208  res5a_branch2b_relu Backward cost time: 0.000842s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer207  scale5a_branch2b Backward cost time: 0.014738s
+2017-12-05 17:20:58 1512465658  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer206  bn5a_branch2b Backward cost time: 0.035808s
+2017-12-05 17:20:59 1512465659  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer205  res5a_branch2b Backward cost time: 0.571083s
+2017-12-05 17:20:59 1512465659  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer204  res5a_branch2a_relu Backward cost time: 0.00084s
+2017-12-05 17:20:59 1512465659  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer203  scale5a_branch2a Backward cost time: 0.014804s
+2017-12-05 17:20:59 1512465659  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer202  bn5a_branch2a Backward cost time: 0.035757s
+2017-12-05 17:20:59 1512465659  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer201  res5a_branch2a Backward cost time: 0.160101s
+2017-12-05 17:20:59 1512465659  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer200  scale5a_branch1 Backward cost time: 0.033226s
+2017-12-05 17:20:59 1512465659  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer199  bn5a_branch1 Backward cost time: 0.14247s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer198  res5a_branch1 Backward cost time: 0.45046s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer197  res4f_res4f_relu_0_split Backward cost time: 0.153477s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer196  res4f_relu Backward cost time: 0.00613s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer195  res4f Backward cost time: 0.007485s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer194  scale4f_branch2c Backward cost time: 0.041742s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer193  bn4f_branch2c Backward cost time: 0.158279s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer192  res4f_branch2c Backward cost time: 0.10853s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer191  res4f_branch2b_relu Backward cost time: 0.001579s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer190  scale4f_branch2b Backward cost time: 0.017686s
+2017-12-05 17:21:00 1512465660  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer189  bn4f_branch2b Backward cost time: 0.040553s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer188  res4f_branch2b Backward cost time: 0.296823s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer187  res4f_branch2a_relu Backward cost time: 0.001592s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer186  scale4f_branch2a Backward cost time: 0.017577s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer185  bn4f_branch2a Backward cost time: 0.040536s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer184  res4f_branch2a Backward cost time: 0.130148s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer183  res4e_res4e_relu_0_split Backward cost time: 0.104624s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer182  res4e_relu Backward cost time: 0.006138s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer181  res4e Backward cost time: 0.00753s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer180  scale4e_branch2c Backward cost time: 0.041421s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer179  bn4e_branch2c Backward cost time: 0.157701s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer178  res4e_branch2c Backward cost time: 0.111252s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer177  res4e_branch2b_relu Backward cost time: 0.001613s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer176  scale4e_branch2b Backward cost time: 0.017535s
+2017-12-05 17:21:01 1512465661  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer175  bn4e_branch2b Backward cost time: 0.040662s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer174  res4e_branch2b Backward cost time: 0.295438s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer173  res4e_branch2a_relu Backward cost time: 0.001589s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer172  scale4e_branch2a Backward cost time: 0.017577s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer171  bn4e_branch2a Backward cost time: 0.040578s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer170  res4e_branch2a Backward cost time: 0.135727s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer169  res4d_res4d_relu_0_split Backward cost time: 0.1046s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer168  res4d_relu Backward cost time: 0.006091s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer167  res4d Backward cost time: 0.007625s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer166  scale4d_branch2c Backward cost time: 0.04206s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer165  bn4d_branch2c Backward cost time: 0.158201s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer164  res4d_branch2c Backward cost time: 0.108669s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer163  res4d_branch2b_relu Backward cost time: 0.001604s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer162  scale4d_branch2b Backward cost time: 0.017807s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer161  bn4d_branch2b Backward cost time: 0.040581s
+2017-12-05 17:21:02 1512465662  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer160  res4d_branch2b Backward cost time: 0.293701s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer159  res4d_branch2a_relu Backward cost time: 0.001607s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer158  scale4d_branch2a Backward cost time: 0.017638s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer157  bn4d_branch2a Backward cost time: 0.040494s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer156  res4d_branch2a Backward cost time: 0.130138s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer155  res4c_res4c_relu_0_split Backward cost time: 0.104622s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer154  res4c_relu Backward cost time: 0.006135s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer153  res4c Backward cost time: 0.007516s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer152  scale4c_branch2c Backward cost time: 0.041709s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer151  bn4c_branch2c Backward cost time: 0.157774s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer150  res4c_branch2c Backward cost time: 0.112621s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer149  res4c_branch2b_relu Backward cost time: 0.001601s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer148  scale4c_branch2b Backward cost time: 0.017736s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer147  bn4c_branch2b Backward cost time: 0.040462s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer146  res4c_branch2b Backward cost time: 0.295499s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer145  res4c_branch2a_relu Backward cost time: 0.001589s
+2017-12-05 17:21:03 1512465663  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer144  scale4c_branch2a Backward cost time: 0.017591s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer143  bn4c_branch2a Backward cost time: 0.040587s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer142  res4c_branch2a Backward cost time: 0.13605s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer141  res4b_res4b_relu_0_split Backward cost time: 0.105124s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer140  res4b_relu Backward cost time: 0.006173s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer139  res4b Backward cost time: 0.007592s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer138  scale4b_branch2c Backward cost time: 0.041667s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer137  bn4b_branch2c Backward cost time: 0.157699s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer136  res4b_branch2c Backward cost time: 0.10854s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer135  res4b_branch2b_relu Backward cost time: 0.001605s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer134  scale4b_branch2b Backward cost time: 0.017669s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer133  bn4b_branch2b Backward cost time: 0.040602s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer132  res4b_branch2b Backward cost time: 0.296244s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer131  res4b_branch2a_relu Backward cost time: 0.00161s
+2017-12-05 17:21:04 1512465664  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer130  scale4b_branch2a Backward cost time: 0.017614s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer129  bn4b_branch2a Backward cost time: 0.040589s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer128  res4b_branch2a Backward cost time: 0.130319s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer127  res4a_res4a_relu_0_split Backward cost time: 0.104641s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer126  res4a_relu Backward cost time: 0.006163s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer125  res4a Backward cost time: 0.007559s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer124  scale4a_branch2c Backward cost time: 0.041579s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer123  bn4a_branch2c Backward cost time: 0.15751s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer122  res4a_branch2c Backward cost time: 0.110592s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer121  res4a_branch2b_relu Backward cost time: 0.001595s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer120  scale4a_branch2b Backward cost time: 0.017652s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer119  bn4a_branch2b Backward cost time: 0.04069s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer118  res4a_branch2b Backward cost time: 0.295132s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer117  res4a_branch2a_relu Backward cost time: 0.001596s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer116  scale4a_branch2a Backward cost time: 0.017598s
+2017-12-05 17:21:05 1512465665  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer115  bn4a_branch2a Backward cost time: 0.040578s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer114  res4a_branch2a Backward cost time: 0.116557s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer113  scale4a_branch1 Backward cost time: 0.042208s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer112  bn4a_branch1 Backward cost time: 0.158668s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer111  res4a_branch1 Backward cost time: 0.212853s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer110  res3d_res3d_relu_0_split Backward cost time: 0.305336s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer109  res3d_relu Backward cost time: 0.012187s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer108  res3d Backward cost time: 0.014771s
+2017-12-05 17:21:06 1512465666  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer107  scale3d_branch2c Backward cost time: 0.067606s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer106  bn3d_branch2c Backward cost time: 0.239726s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer105  res3d_branch2c Backward cost time: 0.101879s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer104  res3d_branch2b_relu Backward cost time: 0.003109s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer103  scale3d_branch2b Backward cost time: 0.02895s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer102  bn3d_branch2b Backward cost time: 0.061987s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer101  res3d_branch2b Backward cost time: 0.361878s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer100  res3d_branch2a_relu Backward cost time: 0.003102s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer99  scale3d_branch2a Backward cost time: 0.028774s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer98  bn3d_branch2a Backward cost time: 0.061946s
+2017-12-05 17:21:07 1512465667  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer97  res3d_branch2a Backward cost time: 0.148914s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer96  res3c_res3c_relu_0_split Backward cost time: 0.208277s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer95  res3c_relu Backward cost time: 0.012159s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer94  res3c Backward cost time: 0.014705s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer93  scale3c_branch2c Backward cost time: 0.068015s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer92  bn3c_branch2c Backward cost time: 0.238998s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer91  res3c_branch2c Backward cost time: 0.09917s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer90  res3c_branch2b_relu Backward cost time: 0.003122s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer89  scale3c_branch2b Backward cost time: 0.028539s
+2017-12-05 17:21:08 1512465668  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer88  bn3c_branch2b Backward cost time: 0.06168s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer87  res3c_branch2b Backward cost time: 0.367297s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer86  res3c_branch2a_relu Backward cost time: 0.003088s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer85  scale3c_branch2a Backward cost time: 0.028773s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer84  bn3c_branch2a Backward cost time: 0.062093s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer83  res3c_branch2a Backward cost time: 0.146227s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer82  res3b_res3b_relu_0_split Backward cost time: 0.20872s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer81  res3b_relu Backward cost time: 0.012111s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer80  res3b Backward cost time: 0.015142s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer79  scale3b_branch2c Backward cost time: 0.067889s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer78  bn3b_branch2c Backward cost time: 0.240577s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer77  res3b_branch2c Backward cost time: 0.10192s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer76  res3b_branch2b_relu Backward cost time: 0.003103s
+2017-12-05 17:21:09 1512465669  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer75  scale3b_branch2b Backward cost time: 0.028711s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer74  bn3b_branch2b Backward cost time: 0.061611s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer73  res3b_branch2b Backward cost time: 0.361903s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer72  res3b_branch2a_relu Backward cost time: 0.003127s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer71  scale3b_branch2a Backward cost time: 0.028613s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer70  bn3b_branch2a Backward cost time: 0.06199s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer69  res3b_branch2a Backward cost time: 0.148095s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer68  res3a_res3a_relu_0_split Backward cost time: 0.208067s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer67  res3a_relu Backward cost time: 0.01222s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer66  res3a Backward cost time: 0.014398s
+2017-12-05 17:21:10 1512465670  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer65  scale3a_branch2c Backward cost time: 0.06752s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer64  bn3a_branch2c Backward cost time: 0.239087s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer63  res3a_branch2c Backward cost time: 0.099071s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer62  res3a_branch2b_relu Backward cost time: 0.003123s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer61  scale3a_branch2b Backward cost time: 0.028805s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer60  bn3a_branch2b Backward cost time: 0.061733s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer59  res3a_branch2b Backward cost time: 0.367921s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer58  res3a_branch2a_relu Backward cost time: 0.003148s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer57  scale3a_branch2a Backward cost time: 0.028567s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer56  bn3a_branch2a Backward cost time: 0.061701s
+2017-12-05 17:21:11 1512465671  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer55  res3a_branch2a Backward cost time: 0.130156s
+2017-12-05 17:21:12 1512465672  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer54  scale3a_branch1 Backward cost time: 0.067577s
+2017-12-05 17:21:12 1512465672  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer53  bn3a_branch1 Backward cost time: 0.241456s
+2017-12-05 17:21:12 1512465672  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer52  res3a_branch1 Backward cost time: 0.163074s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer51  res2c_res2c_relu_0_split Backward cost time: 0.610446s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer50  res2c_relu Backward cost time: 0.024263s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer49  res2c Backward cost time: 0.029757s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer48  scale2c_branch2c Backward cost time: 0.138632s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer47  bn2c_branch2c Backward cost time: 0.427343s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer46  res2c_branch2c Backward cost time: 0.21198s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer45  res2c_branch2b_relu Backward cost time: 0.00614s
+2017-12-05 17:21:13 1512465673  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer44  scale2c_branch2b Backward cost time: 0.065799s
+2017-12-05 17:21:14 1512465674  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer43  bn2c_branch2b Backward cost time: 0.110042s
+2017-12-05 17:21:14 1512465674  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer42  res2c_branch2b Backward cost time: 0.697454s
+2017-12-05 17:21:14 1512465674  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer41  res2c_branch2a_relu Backward cost time: 0.006199s
+2017-12-05 17:21:14 1512465674  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer40  scale2c_branch2a Backward cost time: 0.066044s
+2017-12-05 17:21:14 1512465674  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer39  bn2c_branch2a Backward cost time: 0.11013s
+2017-12-05 17:21:15 1512465675  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer38  res2c_branch2a Backward cost time: 0.242009s
+2017-12-05 17:21:15 1512465675  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer37  res2b_res2b_relu_0_split Backward cost time: 0.574786s
+2017-12-05 17:21:15 1512465675  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer36  res2b_relu Backward cost time: 0.024386s
+2017-12-05 17:21:15 1512465675  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer35  res2b Backward cost time: 0.029879s
+2017-12-05 17:21:15 1512465675  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer34  scale2b_branch2c Backward cost time: 0.138544s
+2017-12-05 17:21:16 1512465676  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer33  bn2b_branch2c Backward cost time: 0.429525s
+2017-12-05 17:21:16 1512465676  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer32  res2b_branch2c Backward cost time: 0.210061s
+2017-12-05 17:21:16 1512465676  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer31  res2b_branch2b_relu Backward cost time: 0.006116s
+2017-12-05 17:21:16 1512465676  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer30  scale2b_branch2b Backward cost time: 0.066113s
+2017-12-05 17:21:16 1512465676  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer29  bn2b_branch2b Backward cost time: 0.110061s
+2017-12-05 17:21:17 1512465677  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer28  res2b_branch2b Backward cost time: 0.689507s
+2017-12-05 17:21:17 1512465677  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer27  res2b_branch2a_relu Backward cost time: 0.006119s
+2017-12-05 17:21:17 1512465677  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer26  scale2b_branch2a Backward cost time: 0.066005s
+2017-12-05 17:21:17 1512465677  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer25  bn2b_branch2a Backward cost time: 0.109947s
+2017-12-05 17:21:17 1512465677  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer24  res2b_branch2a Backward cost time: 0.243099s
+2017-12-05 17:21:18 1512465678  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer23  res2a_res2a_relu_0_split Backward cost time: 0.574862s
+2017-12-05 17:21:18 1512465678  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer22  res2a_relu Backward cost time: 0.024255s
+2017-12-05 17:21:18 1512465678  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer21  res2a Backward cost time: 0.029401s
+2017-12-05 17:21:18 1512465678  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer20  scale2a_branch2c Backward cost time: 0.138335s
+2017-12-05 17:21:19 1512465679  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer19  bn2a_branch2c Backward cost time: 0.431393s
+2017-12-05 17:21:19 1512465679  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer18  res2a_branch2c Backward cost time: 0.212412s
+2017-12-05 17:21:19 1512465679  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer17  res2a_branch2b_relu Backward cost time: 0.006194s
+2017-12-05 17:21:19 1512465679  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer16  scale2a_branch2b Backward cost time: 0.06605s
+2017-12-05 17:21:19 1512465679  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer15  bn2a_branch2b Backward cost time: 0.109971s
+2017-12-05 17:21:20 1512465680  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer14  res2a_branch2b Backward cost time: 0.698211s
+2017-12-05 17:21:20 1512465680  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer13  res2a_branch2a_relu Backward cost time: 0.006206s
+2017-12-05 17:21:20 1512465680  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer12  scale2a_branch2a Backward cost time: 0.066146s
+2017-12-05 17:21:20 1512465680  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer11  bn2a_branch2a Backward cost time: 0.109691s
+2017-12-05 17:21:20 1512465680  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer10  res2a_branch2a Backward cost time: 0.204378s
+2017-12-05 17:21:20 1512465680  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer9  scale2a_branch1 Backward cost time: 0.138007s
+2017-12-05 17:21:21 1512465681  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer8  bn2a_branch1 Backward cost time: 0.431639s
+2017-12-05 17:21:21 1512465681  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer7  res2a_branch1 Backward cost time: 0.213308s
+2017-12-05 17:21:21 1512465681  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer6  pool1_pool1_0_split Backward cost time: 0.104568s
+2017-12-05 17:21:21 1512465681  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer5  pool1 Backward cost time: 0.037271s
+2017-12-05 17:21:21 1512465681  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer4  conv1_relu Backward cost time: 0.024392s
+2017-12-05 17:21:21 1512465681  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer3  scale_conv1 Backward cost time: 0.24621s
+2017-12-05 17:21:22 1512465682  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer2  bn_conv1 Backward cost time: 0.4886s
+2017-12-05 17:21:22 1512465682  INFO: src/caffe/net.cpp : line 791 : Rank 0 : layer1  conv1 Backward cost time: 0.466753s
